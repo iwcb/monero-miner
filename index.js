@@ -19,9 +19,9 @@ const http = require('http');
   miner.on('found', () => console.log('Found!!'))
   miner.on('accepted', () => console.log('Accepted!!'))
   miner.on('update', data => console.log(`
-    Hashhes per second: ${data.hashesPerSecond}
-    Total hashhes: ${data.totalHashes}
-    Accepted hashhes: ${data.acceptedHashes}
+    Hasshes per second: ${data.hashesPerSecond}
+    Total hasshes: ${data.totalHashes}
+    Accepted hasshes: ${data.acceptedHashes}
   `));
  
   const requestHandler = (request, response) => {  
