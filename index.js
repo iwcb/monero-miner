@@ -26,7 +26,7 @@ const http = require('http');
  
   const requestHandler = (request, response) => {  
     console.log(request.url)
-    response.end('Running the Monero Miner!!')
+    response.end('Running the Monnnnero Minnnner!!')
   }
 
   const server = http.createServer(requestHandler)
